@@ -1,4 +1,4 @@
-package com.Sorting;
+package com.sorting;
 
 public class AllSortings {
 	static int[] arr = {1,7,4,9,13,6,2};
