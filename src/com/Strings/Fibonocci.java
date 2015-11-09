@@ -1,4 +1,4 @@
-package com.strings;
+package com.Strings;
 
 public class Fibonocci {
 	static int[] fib ;

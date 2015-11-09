@@ -29,7 +29,6 @@ public class SortElementsByFrequency {
 		  List<Entry<Integer, Integer>> list= new ArrayList<Entry<Integer, Integer>>(map.entrySet());
 		  Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
 			  
-              @Override
               public int compare(Entry<Integer, Integer> o1,
                       Entry<Integer, Integer> o2) {
                   return o2.getValue().compareTo(o1.getValue());

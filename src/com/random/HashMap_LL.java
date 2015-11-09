@@ -1,3 +1,4 @@
+package com.random;
 
 public class HashMap_LL {
 	private static final int SIZE = 16;

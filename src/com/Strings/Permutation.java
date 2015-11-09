@@ -1,4 +1,4 @@
-package com.strings;
+package com.Strings;
 
 public class Permutation {
 boolean flag = false;

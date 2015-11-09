@@ -1,3 +1,5 @@
+package com.random;
+
 
 public class binaryTree {
 	static Node1 node ;

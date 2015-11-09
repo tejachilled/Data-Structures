@@ -34,10 +34,10 @@ public class IBM {
 			    	     map.put(1,list);
 			    	     set.add(split2[0]);
 			    	     list = new ArrayList<String>();
-			    	     map.put(2,split2[1]);
+			    	    // map.put(2,split2[1]);
 			    	     set.add(split2[1]);
 			    	}
-			    	list.s
+			    	//list.s
 
 			    	if(set.contains(split2[0])){
 			    	    list = map.get(count);
@@ -49,7 +49,7 @@ public class IBM {
 			    	    map.put(count,list);
 			    	}
 			  }
-			  int gen =   split1[split1.length-1];
+			  String gen =   split1[split1.length-1];
 			   ArrayList<String>  flist = new ArrayList<String>();
 			   flist = map.get(gen);
 			   String fin = "";

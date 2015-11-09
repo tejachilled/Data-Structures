@@ -1,4 +1,4 @@
-package com.strings;
+package com.Strings;
 
 import java.util.HashSet;
 import java.util.Set;
