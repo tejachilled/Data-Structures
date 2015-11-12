@@ -17,7 +17,7 @@ public class HeapSort {
 			maxHeap(a,i,len);
 		}
 		for(int i:a)
-			System.out.println(i);
+			System.out.print(i+" ");
 		//o(n)
 		System.out.println();
 		for (int i = len; i >= 0; i--)

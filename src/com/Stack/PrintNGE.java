@@ -9,7 +9,7 @@ public class PrintNGE {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {11,13,2,1,21,3}; 
+		int a[] = {7, 5, 6, 3, 4, 1, 2, 9, 11 };
 		PrintNextGE(a);
 	}
 
