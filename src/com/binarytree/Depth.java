@@ -11,7 +11,7 @@ public class Depth {
 	public static void main(String[] args) {
 		BinaryTree root = new BinaryTree().getData();
 		System.out.println(findDepth(root));
-		findDepthIterative(root);
+		//findDepthIterative(root);
 	}
 
 	private static void findDepthIterative(BinaryTree root) {

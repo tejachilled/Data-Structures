@@ -8,7 +8,7 @@ public class ReverseWordbyWord {
 		// TODO Auto-generated method stub
 		String inp = "How are you";
 		String inp1 = "How are you";
-		//System.out.println(reverse(inp));
+		System.out.println(reverse(inp));
 		//reverse1(inp1.toCharArray());
 		System.out.println(getReverse2(inp));
 	}

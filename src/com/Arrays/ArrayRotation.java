@@ -1,7 +1,5 @@
 package com.Arrays;
 
-import java.util.Arrays;
-
 public class ArrayRotation {
 
 	
@@ -21,7 +19,6 @@ public class ArrayRotation {
 	}
 
 	private static void reverse(int[] a, int i, int d) {
-		// TODO Auto-generated method stub
 		int start=i,end =d;
 		while(start<end){
 			int temp = a[start];

@@ -1,10 +1,7 @@
 package com.Strings;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
-
 
 public class Strings {
 	static Set<String> lst = new TreeSet<String>();
@@ -15,7 +12,11 @@ public class Strings {
 		//NofPlaindromes();
 		String s = "abcdefghijklmnop";
 		Strings sts = new Strings();
-		sts.permutations(s);
+		//sts.permutations(s);
+		
+		String s1 = null,s2 = "a";
+		System.out.println(s1.concat(s2));
+		
 	}
 
 	private static void NofPlaindromes() {

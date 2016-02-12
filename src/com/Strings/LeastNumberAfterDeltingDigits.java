@@ -12,7 +12,6 @@ public class LeastNumberAfterDeltingDigits {
 		System.out.println(t);
 	}
 	
-	    public static int firstDecreasing;
 	    public static int nextStart;
 
 
@@ -21,7 +20,8 @@ public class LeastNumberAfterDeltingDigits {
 	    int start = 0;
 	    while(k > 0 && leastNumber.length() > 0) {
 	        getNextDecreasing(leastNumber, start);
-	        if(firstDecreasing >= 0) {
+	        int firstDecreasing = 0;
+			if(firstDecreasing >= 0) {
 	            leastNumber = removeDigit(leastNumber, firstDecreasing);
 	        }
 	        else {
@@ -37,7 +37,8 @@ public class LeastNumberAfterDeltingDigits {
 
 	private  void getNextDecreasing(String number, int start) {
 
-	    for(int i = start; i < number.length() - 1; ++i) {
+	    int firstDecreasing = 0;
+		for(int i = start; i < number.length() - 1; ++i) {
 	        int curDigit = number.charAt(i) - '0';
 	        int nextDigit = number.charAt(i + 1) - '0';
 	        if(curDigit > nextDigit) {

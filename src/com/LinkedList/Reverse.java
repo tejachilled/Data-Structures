@@ -15,13 +15,13 @@ public class Reverse {
 		System.out.println();
 		//Insert_Delete_Length.display(reverseLL(head1));
 		//System.out.println();
-		//Insert_Delete_Length.display(reverseLL_recursive(head2));
+		Insert_Delete_Length.display(reverseLL_recursive(head2));
 		//System.out.println();
 		//Print_reverse(head3);
 		//System.out.println();
-		Insert_Delete_Length.display(ReverseInGroups(head4, 3));
+		//Insert_Delete_Length.display(ReverseInGroups(head4, 3));
 		System.out.println("sd");
-		Insert_Delete_Length.display(ReverseAlternateGroups(head5,2));
+		//Insert_Delete_Length.display(ReverseAlternateGroups(head5,2));
 	}
 
 	public static Node<Integer> reverseLL(Node<Integer> head) {
@@ -42,10 +42,10 @@ public class Reverse {
 	public static Node<Integer> reverseLL_recursive(Node<Integer> head) {
 		if(head == null) return null;
 		if(head.next == null ) return head;		
-		Node<Integer> secEle = head.next;
+		Node<Integer> next = head.next;
 		head.next = null;
-		Node<Integer> revhead = reverseLL_recursive(secEle);
-		secEle.next = head;
+		Node<Integer> revhead = reverseLL_recursive(next);
+		next.next = head;
 		return revhead;
 	}
 	

@@ -40,8 +40,7 @@ public class Node<V> {
 		return one;
 	}
 	public static Node<Integer> getUnsortedInput(){
-		Node<Integer> dup1 = new Node<Integer>(8);
-		Node<Integer> six = new Node<Integer>(6,dup1);
+		Node<Integer> six = new Node<Integer>(6);
 		Node<Integer> seven = new Node<Integer>(7,six);
 		Node<Integer> eight = new Node<Integer>(8,seven);
 		Node<Integer> five = new Node<Integer>(5,eight);

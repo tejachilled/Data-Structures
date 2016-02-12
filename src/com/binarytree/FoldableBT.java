@@ -12,7 +12,7 @@ public class FoldableBT {
 	}
 
 	private static boolean check(BinaryTree left, BinaryTree right) {
-		if(left!=null && right !=null) return true;
+		if(left==null && right ==null) return true;
 		if(left== null || right == null) return false;
 		return check(left.left,right.right) && check(left.right,right.left);
 	}

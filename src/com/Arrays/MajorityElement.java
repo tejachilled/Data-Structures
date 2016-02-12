@@ -19,7 +19,6 @@ public class MajorityElement {
 	}
 
 	private static int Majority(int[] arr) {
-		int temp;
 		int count =1,maj= 0;
 		for(int j=1;j<arr.length;j++){
 			if(arr[maj]==arr[j]){

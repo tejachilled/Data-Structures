@@ -8,10 +8,7 @@ import java.util.Stack;
 public class Area {
 
 	public static void main(String args[]){
-
 		char arr[][]=new char [2][3];
-
-
 		for(char [] t:arr)
 			Arrays.fill(t, '1');
 
@@ -65,8 +62,6 @@ public class Area {
 				}
 			}
 		}
-
-
 		System.out.println(area);
 		System.out.println(maximalRectangle(arr));
 
@@ -77,10 +72,6 @@ public class Area {
         }
         
         int[][] heights=new int[matrix.length][matrix[0].length];
-        
-        // build heights table, once we have heights table, at each row, we can use 
-        // method which used in question of Largest Rectangle in Histogram to calculate 
-        // max area at until this row,.
         
         for (int row=0; row<matrix.length; row++){
             for (int col=0; col<matrix[0].length; col++){

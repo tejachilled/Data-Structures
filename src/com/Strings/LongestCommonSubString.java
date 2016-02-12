@@ -17,8 +17,6 @@ public class LongestCommonSubString {
 		int sl = second.length();
 		int[][] table = new int[fl+1][sl+1];
 		StringBuilder sb = new StringBuilder(second.charAt(0));
-		int lastSubsBegin = 0;
-
 		for(int s=0; s <= sl; s++)
 			table[0][s] = 0;
 		for(int f=0; f <= fl; f++)

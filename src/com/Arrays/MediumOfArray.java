@@ -26,7 +26,6 @@ public class MediumOfArray {
 
 	private static void findMed(Queue<Integer> max, Queue<Integer> min) {
 		System.out.println(max.poll());
-		
 	}
 
 	private static void addNumbers(Queue<Integer> max, Queue<Integer> min, int i) {

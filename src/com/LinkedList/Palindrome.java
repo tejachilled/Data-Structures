@@ -19,7 +19,6 @@ public class Palindrome {
 			fast = fast.next.next;
 			slow = slow.next;
 		}
-		//System.out.println(fast.element);
 		fast = slow.next;
 		slow = Reverse.reverseLL(fast);
 		fast= head;

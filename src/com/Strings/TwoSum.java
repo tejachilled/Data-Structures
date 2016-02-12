@@ -9,8 +9,8 @@ public class TwoSum {
 
 	public static void main(String[] args) {
 		
-		int target = 10;
-		int[] ary = {1,2,5,6,7};
+		int target = 7;
+		int[] ary = {0,1,2,3,4,5,6,7};
 		Arrays.sort(ary);
 		int first =0;
 		int last = ary.length-1;
@@ -26,17 +26,18 @@ public class TwoSum {
 //			}
 //		}
 		System.out.println("-------------------");
-		
 	twoSum(ary,first,last,target);	
 	}
 
 	private static void twoSum(int[] ary, int first, int last,int target) {
 		// TODO Auto-generated method stub
 		while(first<=last){
+			//System.out.println(first+ " last: "+last);
 			if(ary[first]+ary[last]==target){
 				System.out.println(ary[first]+" "+ary[last]);
-			}
-			if(ary[first]+ary[last]<=target){
+				first++; last--;
+			}else
+			if(ary[first]+ary[last]<target){
 				first++;
 			}else{
 				last--;

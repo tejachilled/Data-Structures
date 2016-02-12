@@ -3,8 +3,8 @@ package com.Matrix;
 public class ReplaceXwithO {
 
 	public static void main(String[] args) {
-		char mat[][] =  {{'X', 'O', 'X', 'O', 'X', 'X'},
-                {'X', 'O', 'X', 'X', 'O', 'X'},
+char mat[][] = {{'X', 'O', 'X', 'O', 'X', 'X'},
+                {'X', 'O', 'X', 'X', 'X', 'X'},
                 {'X', 'X', 'X', 'O', 'X', 'X'},
                 {'O', 'X', 'X', 'X', 'X', 'X'},
                 {'X', 'X', 'X', 'O', 'X', 'O'},

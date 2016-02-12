@@ -22,7 +22,7 @@ public class HeapSort {
 		System.out.println();
 		for (int i = len; i >= 0; i--)
         {
-            swap(a,0, i);
+            swap(a,i, 0);
             len = len-1;
             maxHeap(a, 0,len);
         }

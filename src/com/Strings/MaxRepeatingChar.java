@@ -13,16 +13,13 @@ public class MaxRepeatingChar {
 		String s = "aaabbbcde";
 		Arrays.fill(inp, 0);
 		for(int i =0;i<s.length();i++){
-		inp[s.charAt(i)]++;
+			inp[s.charAt(i)]++;
 		}
-//		Arrays.sort(inp, Collections.reverseOrder());
-//		for(int i=0;i<inp.length;i++)
-//		System.out.println(i+" i : "+inp[i]);
 		for(int i =0;i<s.length();i++){
-			if(inp[s.charAt(i)]==1){ System.out.println(inp[s.charAt(i)]+ " "+s.charAt(i));	break;}
-			
-		
-			}
+			if(inp[s.charAt(i)]==1){ 
+				System.out.println(inp[s.charAt(i)]+ " "+s.charAt(i));	break;
+				}
+		}
 	}
 
 }

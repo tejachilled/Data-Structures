@@ -24,7 +24,6 @@ public class ThreeSum {
 
 
 	private static void Twosum(int[] arr, int target, int first) {
-		// TODO Auto-generated method stub
 		int temp = arr[first];
 		int last = arr.length-1;
 		while(first<last){

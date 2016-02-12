@@ -24,6 +24,11 @@ public class Traversals {
 
 	private static void MoorsInorder(BinaryTree head) {
 		// TODO Auto-generated method stub
+		
+	}
+
+	private static void x	(BinaryTree head) {
+		// TODO Auto-generated method stub
 		if(head == null) return;
 		System.out.println("Moors inorder");
 		BinaryTree current = head;

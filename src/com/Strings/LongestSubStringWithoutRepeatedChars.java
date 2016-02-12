@@ -31,7 +31,8 @@ public class LongestSubStringWithoutRepeatedChars {
 			all[input.charAt(i)] = i;
 		}
 		System.out.println(maxLen);
-		curLen = 0;maxLen =0;prev = 0;;
+		curLen = 0;maxLen =0;prev = 0;
+		int fIndex = 0;
 		Arrays.fill(all, 0);
 		for(int i= 0;i<input.length();i++){
 			int index = all[input.charAt(i)];
@@ -42,6 +43,7 @@ public class LongestSubStringWithoutRepeatedChars {
 			}else{
 				if(curLen>maxLen){
 					maxLen = curLen-1;
+					fIndex = i;
 				}	
 				all = new int[256];
 				all[input.charAt(i)] = -1;
