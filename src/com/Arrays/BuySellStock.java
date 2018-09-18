@@ -22,9 +22,9 @@ public class BuySellStock {
 			maxProfit = Math.max(maxProfit,profit );
 			maxProfitAlldays[count++] = maxProfit;
 		}
-		for(int price  : maxProfitAlldays)
-			//System.out.print(price+ " ");
-			maxProfit = 0;
+//		for(int price  : maxProfitAlldays)
+//			//System.out.print(price+ " ");
+//			maxProfit = 0;
 		for(int i = maxProfitAlldays.length-1;i>0;i--){
 			int maxPrice = Math.max(maxProfit, sPrice[i]);
 			//System.out.println((maxPrice - sPrice[i] +maxProfitAlldays[i-1]));

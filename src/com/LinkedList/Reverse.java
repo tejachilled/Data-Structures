@@ -19,7 +19,7 @@ public class Reverse {
 		//System.out.println();
 		//Print_reverse(head3);
 		//System.out.println();
-		//Insert_Delete_Length.display(ReverseInGroups(head4, 3));
+		Insert_Delete_Length.display(ReverseInGroups(head4, 2));
 		System.out.println("sd");
 		//Insert_Delete_Length.display(ReverseAlternateGroups(head5,2));
 	}

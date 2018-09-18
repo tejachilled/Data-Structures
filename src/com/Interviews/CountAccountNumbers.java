@@ -4,8 +4,6 @@ import java.io.*;
 import java.util.HashSet;
 import java.util.Set;
 
-import sun.print.PSPrinterJob.EPSPrinter;
-
 public class CountAccountNumbers {
 
 	public static void main(String[] args) throws IOException {

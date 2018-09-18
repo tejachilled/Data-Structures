@@ -32,7 +32,7 @@ public class AddTwoNumber {
 			if(n2!=null)
 			n2=n2.next;
 		}
-		if(carry>0)temp.next = new Node<Integer>(carry);
+		//if(carry>0)temp.next = new Node<Integer>(carry);
 		return res;
 	}
 }
