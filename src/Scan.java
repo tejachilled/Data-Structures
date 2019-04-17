@@ -30,6 +30,8 @@ public class Scan {
 //		}
 // testing again
 		//
+
+		// this should lead to conflict
 		
 		String s1 = "Hello";
 		m1(s1);
