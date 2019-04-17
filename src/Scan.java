@@ -28,6 +28,7 @@ public class Scan {
 //			System.out.println("number of words: "+words);
 //			System.out.println("number pf chars: "+chars);
 //		}
+// this is for testing branches  m2test
 		
 		String s1 = "Hello";
 		m1(s1);
